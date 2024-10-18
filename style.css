@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    line-height: 1.6; /* Spacing between lines */
+}
+
+/* Style the header */
+header {
+    background: #35424a; /* Dark grey background */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Padding around the header */
+    text-align: center; /* Center align text */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Padding for the main content */
+}
+
+/* Style for project sections */
+#projects {
+    margin: 20px 0; /* Margin around project section */
+}
+
+#projects h2 {
+    color: #35424a; /* Dark grey color for section heading */
+}
+
+/* Style the contact section */
+#contact {
+    margin-top: 20px; /* Margin above contact section */
+}
+
+/* Style the footer */
+footer {
+    background: #35424a; /* Dark grey background */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center align text */
+    padding: 10px 0; /* Padding around footer */
+    position: relative; /* Positioning footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
